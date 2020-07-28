@@ -1,5 +1,23 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  background-color: #f5f8fa;
+  height: 100vh;
+}
+.header {
+  height: 40px;
+  padding: 20px;
+  font-size: 24px;
+  text-align: left;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 4px 8px 1px;
+}
+
+.editorDiv {
+  padding: 20px 60px;
+  width: 50%;
+  height: calc(100% - 122px);
+  margin: 1px auto;
+  background-color: #ffffff;
 }
 
 .App-logo {

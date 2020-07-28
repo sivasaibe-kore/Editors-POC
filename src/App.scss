@@ -1,0 +1,20 @@
+.app {
+    height: 100vh;
+    background-color: #f5f8fa;
+    .editorsDiv {
+        height: calc(100% - 58px);
+        padding: 20px 60px;
+        width: 70%;
+        margin: 1px auto;
+        background-color: #ffffff;
+        @media screen and (max-width: 768px) {
+            width: 80%;
+        }
+        @media screen and (min-width: 769px) and (max-width: 992px) {
+            width: 80%;
+        }
+    }
+    .fr-svg {
+        vertical-align: baseline;
+    }
+}
